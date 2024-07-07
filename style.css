@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common styles  */
+.pcolor {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+span {
+    color: red;
+}
+
+/* header styling  */
+header {
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(new-year-offer-resources/images/Banner\ Image.png);
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .text {
+    width: 632px;
+    height: 246px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: white;
+
+}
+
+header .text h3 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+header .text h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* main> discount section  */
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+main .discount {
+    margin: 0 auto;
+    width: 802.9px;
+    height: 806px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+
+
+
+}
+
+main .discount h2 {
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+}
+
+main .discount p {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+main .discount h5 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+main .discount img {
+    height: 500px;
+    margin-top: 48px;
+}
+
+/* main> party section  */
+.party {
+    max-width: 1320px;
+    height: 600px;
+    margin: 120px 0;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(new-year-offer-resources/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 68px 130px;
+    box-sizing: border-box;
+}
+
+.party img {
+    width: 319px;
+    height: 464px;
+    ;
+}
+
+
+.party-text h2 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-top: 58px;
+    margin-bottom: 24px;
+
+}
+
+.party-text p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.party-text a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* main> schedule section */
+.schedule {
+    height: 482px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+
+.schedule .text {
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+
+.schedule .btn {
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 0, 0);
+    padding: 16px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+}
+
+/* main> best offer section  */
+.best-offer {
+    height: 463px;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 120px 0;
+}
+
+/*  */
+
+.best-offer .column1 h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.best-offer .column1 {
+    width: 393px;
+    height: 255px;
+}
+
+.best-offer .column1 h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.best-offer .column1 p,
+.best-offer .column3 p {
+
+    margin-top: 22px;
+}
+
+.best-offer .column2 {
+    height: 464px;
+    width: 464px;
+    border: 15px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.best-offer .column2 img {
+
+    width: 364px;
+}
+
+.best-offer .column3 {
+    width: 276px;
+}
+
+.best-offer .column3 h2 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.best-offer .column3 img {
+    margin-top: 43px;
+}
+
+/* main> holiday section  */
+.hodiday {
+    height: 986px;
+    background-image: url(new-year-offer-resources/images/Rectangle\ 2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+}
+
+.sale {
+    width: 1068px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.sale h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.sale h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.hodiday .image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hodiday .image .small-image {
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+
+/* main> portfolio section  */
+.portfolio {
+    height: 1163px;
+}
+
+.portfolio h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.portfolio .gallery {
+    margin-top: 48px;
+}
+
+.portfolio .gallery img {
+    margin: 5px;
+}
+
+/* main> subcribtion section  */
+.subscribe {
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    height: 616px;
+    text-align: center;
+    margin: 120px 0;
+}
+
+.subscribe img {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.subscribe h2 {
+    margin-bottom: 22px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe input {
+    margin-top: 48px;
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    border: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.subscribe .btn {
+    height: 72px;
+    padding: 24px 56px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right: -5%;
+    top: 40.2%;
+}
+
+.subscribe .sub-btn {
+    margin: 0 auto;
+    width: 648px;
+    position: relative;
+}
+
+/* footer styling  */
+footer {
+    background-color: black;
+    width: 1600px;
+    height: 609px;
+    margin: 0 auto;
+    padding: 120px 140px;
+    box-sizing: border-box;
+
+}
+
+footer p {
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer .address {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+footer .social-links {
+    margin: 50px auto;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+footer hr {
+    opacity: .15;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
